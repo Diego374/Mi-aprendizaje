@@ -1,0 +1,34 @@
+body{background-color: blue;}
+
+.Enunciados{
+background-color: white;}
+
+.Preposiciones{
+    background-color: red;
+    background-image: url(mandalorian.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Listasytontas{
+    background-color: yellow;
+}
+
+.imagenes{
+    width: max-content;
+    height: max-content;
+}
+
+.Enlaces{
+    background-color: green;
+}
+
+.Tablas{
+    background-color: orange;
+}
+
+/*
+Color de los enlaces
+Editar tabla
+*/
