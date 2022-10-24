@@ -71,6 +71,25 @@ background-color: white;}
     color: rgb(61, 64, 64);
   }
 
+  #bandasdelmadrid {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background: #75ed12;
+  }
+
+  #vinicius {
+    width:50px;
+    background: #999;
+    height: 10vh;
+  }
+
+  #rodrygo {
+    width: 10%;
+    background: #363;
+  }
+
+
 /*
 Color de los enlaces
 Editar tabla
