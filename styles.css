@@ -1,4 +1,4 @@
-body{background-color: blue;}
+body{background-color: rgb(66, 255, 236);}
 
 .Enunciados{
 background-color: white;}
@@ -117,11 +117,45 @@ background-color: white;}
   }
 
   #padresahijos > p{
-    color: black
+    color: black;
   }
   #infiltrado > h1{
-    color: red
+    color: red;
   }
+
+  p + p{   /*resulta que aquí no hay que nombrar el id, pero es el de cosas de heramanos*/
+    color: green;
+  }
+
+  #todoalrojo *{
+    color: red;
+  }
+
+  div * p{ /*resulta que aquí tampoco hay que nombrar el id, pero es el de los nietos*/
+    color: black;
+  }
+
+  [a href='http://www.marca.com/'] {color: yellow;}
+	[a href='http://www.as.com/'] {color: red;}
+	[a href='http://www.mundodeportivo.com/'] {color: green;}
+	[a href='http://www.sport.com/'] {color: black;}
+
+  div [id*='magia'] {color: yellow;}
+
+  a:link{color: green;}
+  a:visited{color: yellow;}
+  a:hover{color: blue;}
+  a:active{color: red;}
+
+  input{padding: 5px;}
+  input:focus{font-size: 2em;}
+  input:disabled{
+    background: #ddd;
+    color: #949494;
+    border: 2px solid black;
+  }
+  input:enabled{ border: 2px solid black;}
+
 /*
 Color de los enlaces
 Editar tabla
