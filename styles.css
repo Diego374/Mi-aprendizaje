@@ -116,6 +116,12 @@ background-color: white;}
     float: right;
   }
 
+  #padresahijos > p{
+    color: black
+  }
+  #infiltrado > h1{
+    color: red
+  }
 /*
 Color de los enlaces
 Editar tabla
